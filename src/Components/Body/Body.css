@@ -1,0 +1,6 @@
+.body {
+  grid-area: b;
+  background-color: #52d6ae;
+  color: white;
+  padding: 2vh 22vw 4vh 8vw;
+}

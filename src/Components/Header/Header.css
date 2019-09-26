@@ -1,0 +1,6 @@
+.header {
+  grid-area: h;
+  background-color: #8552d6;
+  color: white;
+  padding: 2vh 22vw 3vw 8vw;
+}

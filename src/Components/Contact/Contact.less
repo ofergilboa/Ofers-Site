@@ -1,0 +1,40 @@
+@color1:rgb(207, 76, 76);
+@color2:rgb(201, 112, 112);
+@color3: aqua;
+@color4: white;
+
+.contactDiv{
+   // grid-column: 1/three;
+   grid-area: c;
+   display: grid;
+   grid-template-columns: 1fr 6fr;
+   text-align: center;
+   align-items: strach;
+   // position: fixed;
+   .contactCV{
+      grid-column: 1;
+      text-justify: center ;
+      background-color: @color2;
+      color: @color4;
+      display: flex;
+      align-items: center;
+      padding-left: 1vw;
+      // justify-content: center;
+
+   }
+   .contactInfo{
+      background-color: @color1;
+      align-items: center;
+      // justify-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-self: stretch;
+      padding:  0px 12vw 0px 8vw;
+      .contact{
+         text-align: center;
+         background-color: @color1;
+         color: @color4;
+         display: inline-block;
+      }
+   }
+}

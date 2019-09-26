@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar';
 import Body from './Components/Body/Body';
 import Header from './Components/Header/Header';
+import Contact from './Components/Contact/Contact';
 
 
 class App extends Component {
@@ -21,9 +22,10 @@ class App extends Component {
    render() {
       return (
          <Router>
-            <div className=" App-header ">
+            <div className='app'>
+               <Contact />
+               <Navbar />
                <Header />
-               <Navbar className="App"/>
                <Body />
             </div>
          </Router>

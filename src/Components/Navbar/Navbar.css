@@ -1,3 +1,9 @@
 .navbar {
-  background-color: #1af349;
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-between;
+  grid-area: n;
+  background-color: #8a3939;
+  color: white;
+  padding: 7vh 1vw 6vw 1vw;
 }

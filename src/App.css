@@ -1,7 +1,9 @@
-.App-header{
-   width: 100vw;
-   height: 100vh;
-   background-color: rgb(59, 25, 212);}
-.navbar {
-  background-color: #d33333;
+.app {
+  background-color: #85c8ff;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 25px auto 12fr;
+  grid-template-areas: "c c" "n h" "n b";
+  width: 100vw;
+  height: 100vh;
 }
