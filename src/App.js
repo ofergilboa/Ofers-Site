@@ -21,14 +21,14 @@ class App extends Component {
 
    render() {
       return (
-         <Router>
+         // <Router>
             <div className='app'>
                <Contact />
                <Navbar />
                <Header />
                <Body />
             </div>
-         </Router>
+         // </Router>
       )
    }
 }

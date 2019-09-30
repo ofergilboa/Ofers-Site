@@ -13,12 +13,13 @@ class Contact extends Component {
                <div className="contact" >ofer1gilboa@gmail.com</div>
                <div className="contact" >0528283312</div>
                <div className="contact" >Tel Aviv</div>
-               <div className="contact link" >LinkedIn</div>
-               <div className="contact link" >GitHub</div>
-               <div className="contact link" >CodeWars</div>
+               <a href="https://www.linkedin.com/in/ofer-gilboa" target="blank" className="contact link" >LinkedIn</a>
+               <a href="https://github.com/ofergilboa" target="blank" className="contact link" >GitHub</a>
+               <a href="https://www.codewars.com/users/ofergilboa" target="blank" className="contact link" >CodeWars</a>
             </div>
          </div>
       )
    }
 }
 export default Contact
+

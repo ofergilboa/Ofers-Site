@@ -7,8 +7,8 @@ class Navbar extends Component {
       return (
          <div className="navbar">
             <div className="updated">Last updated on: <br />
-               Sep 25, 2019 <br />
-               {moment("2019092522", "YYYYMMDDHH").fromNow()}</div>
+               Oct 01, 2019 <br />
+               {moment("2019100113", "YYYYMMDDHH").fromNow()}</div>
             <br />
             <div className="sites">sites
             <br />
