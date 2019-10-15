@@ -1,31 +1,33 @@
-@color1:rgb(207, 76, 76);
-@color2:rgb(201, 112, 112);
-@color3: aqua;
-@color4: white;
+@color1:#2c2c54;
+@color2:#2d2d64;
 
 .contactDiv{
    // grid-column: 1/three;
+   font-family: 'Courier New', Courier, monospace;
+   position: fixed;
+   width: 100vw;
+   height: 25px;
    grid-area: c;
    display: grid;
-   grid-template-columns: 1fr 6fr;
+   grid-template-columns: 12% 88%;
    text-align: center;
    align-items: strach;
-   // position: fixed;
+   box-shadow: 1px 1px 3px 0px black;
+   // position: sticky;
+   z-index: 99;
    .contactCV{
       grid-column: 1;
       text-justify: center ;
       background-color: @color2;
-      color: @color4;
       display: flex;
       align-items: center;
       padding-left: 1vw;
       // justify-content: center;
-
    }
    .contactInfo{
+      // box-shadow: 1px 1px 4px 1px black;
       background-color: @color1;
       align-items: center;
-      // justify-items: center;
       display: flex;
       justify-content: space-between;
       align-self: stretch;
@@ -33,7 +35,6 @@
       .contact{
          text-align: center;
          background-color: @color1;
-         color: @color4;
          display: inline-block;
       }
    }

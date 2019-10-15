@@ -1,9 +1,21 @@
 .app {
   background-color: #85c8ff;
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 12% 88%;
   grid-template-rows: 25px auto 12fr;
   grid-template-areas: "c c" "n h" "n b";
   width: 100vw;
   height: 100vh;
+  overflow-y: auto;
+}
+.app .links {
+  color: #ffffff;
+  text-decoration: none;
+}
+.app .text1 {
+  color: #000000;
+  font-size: 15px;
+}
+.app .text2 {
+  color: #acacac;
 }

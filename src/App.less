@@ -1,12 +1,30 @@
+@text1: rgb(0, 0, 0);
+@text2: rgb(172, 172, 172);
+@links: rgb(255, 255, 255);
+@test: red;
+
 .app{
    background-color: rgb(133, 200, 255);
    // font-family: 'Courier New', Courier, monospace;
    display: grid;
-   grid-template-columns: 1fr 6fr;
+   grid-template-columns: 12% 88%;
    grid-template-rows: 25px auto 12fr;
    grid-template-areas: "c c" 
                         "n h"
                         "n b";
    width: 100vw;
    height: 100vh;
+   overflow-y: auto;
+   .links{
+      color: @links;
+      text-decoration: none;
+   }
+   .text1{
+      color: @text1;
+      font-size: 15px;
+      
+   }
+   .text2{
+      color: @text2;
+   }
 }
