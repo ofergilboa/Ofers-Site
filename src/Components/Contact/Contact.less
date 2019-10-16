@@ -1,5 +1,6 @@
-@color1:#2c2c54;
-@color2:#2d2d64;
+@color1:#3C3B55;
+@color2:#4B4A6A;
+// @color2:#35344A;
 
 .contactDiv{
    // grid-column: 1/three;
@@ -12,8 +13,7 @@
    grid-template-columns: 12% 88%;
    text-align: center;
    align-items: strach;
-   box-shadow: 1px 1px 3px 0px black;
-   // position: sticky;
+   box-shadow: 1px 0px 3px 0px whitesmoke;
    z-index: 99;
    .contactCV{
       grid-column: 1;
@@ -32,6 +32,9 @@
       justify-content: space-between;
       align-self: stretch;
       padding:  0px 12vw 0px 8vw;
+      .text2{
+         text-shadow: 2px 2px @color2;
+      }
       .contact{
          text-align: center;
          background-color: @color1;

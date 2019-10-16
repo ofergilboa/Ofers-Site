@@ -8,27 +8,30 @@
   grid-template-columns: 12% 88%;
   text-align: center;
   align-items: strach;
-  box-shadow: 1px 1px 3px 0px black;
+  box-shadow: 1px 0px 3px 0px whitesmoke;
   z-index: 99;
 }
 .contactDiv .contactCV {
   grid-column: 1;
   text-justify: center ;
-  background-color: #2d2d64;
+  background-color: #4B4A6A;
   display: flex;
   align-items: center;
   padding-left: 1vw;
 }
 .contactDiv .contactInfo {
-  background-color: #2c2c54;
+  background-color: #3C3B55;
   align-items: center;
   display: flex;
   justify-content: space-between;
   align-self: stretch;
   padding: 0px 12vw 0px 8vw;
 }
+.contactDiv .contactInfo .text2 {
+  text-shadow: 2px 2px #4B4A6A;
+}
 .contactDiv .contactInfo .contact {
   text-align: center;
-  background-color: #2c2c54;
+  background-color: #3C3B55;
   display: inline-block;
 }
