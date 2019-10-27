@@ -11,11 +11,13 @@
 .app .links {
   color: #ffffff;
   text-decoration: none;
+  font-size: 13px;
 }
 .app .text1 {
   color: #000000;
-  font-size: 15px;
+  font-size: 14px;
 }
 .app .text2 {
   color: #acacac;
+  font-size: 13px;
 }

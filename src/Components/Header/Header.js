@@ -7,7 +7,7 @@ import Ofer from '../../files/Ofer.jpeg'
 class Header extends Component {
    render() {
       return (
-         <div className="header text1">
+         <div id="header" className="header text1">
             <div className="name text1" >Ofer Gilboa- Junior Full Stack Web Developer</div>
             <div className="content">
                <img className="image" src={Ofer} alt="image" ></img>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Priceless extends Component {
    render() {
       return (
-         <div className="priceless">
+         <div id="priceless" className="priceless">
             PriceLess- coming soon
         </div>)
    }

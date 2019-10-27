@@ -6,10 +6,10 @@ import OferGilboaCV from '../../../files/OferGilboaCV.pdf'
 class CV extends Component {
    render() {
       return (
-         <div className="cv">
+         <div id="cv" className="cv">
             <img className="cv1" src={OferGilboaCVJ} alt="image"  ></img>
             <br />
-            <a className="textDownload" href={OferGilboaCV} download="Ofer Gilboa CV">Download PDF</a>
+            <a className="textDownload" href={OferGilboaCV} download="Ofer Gilboa CV">Download CV as PDF</a>
          </div>)
    }
 }

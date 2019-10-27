@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Arch extends Component {
    render() {
       return (
-         <div className="arch">
+         <div id="arch"className="arch">
             Arch Stuff- coming soon
         </div>)
    }

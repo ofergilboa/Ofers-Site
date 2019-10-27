@@ -1,5 +1,6 @@
 .navbar {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', Courier, monospace;
+  font-family: 'Lucida Sans Unicode';
   position: fixed;
   margin-top: 25px;
   width: 12%;
@@ -26,7 +27,7 @@
   padding: 1vh 0.6vw 2vh 1vw;
   background-color: #2D2D40;
   margin-top: 10vh;
-  margin-bottom: -10vh;
+  margin-bottom: -7vh;
   text-shadow: 2px 2px #4B4A6A;
 }
 br {

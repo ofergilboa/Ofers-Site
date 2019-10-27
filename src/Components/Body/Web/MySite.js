@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 class MySite extends Component {
    render() {
       return (
-         <div className="mysite">
-            My Site- coming soon
+         <div id="ofersSite" className="mysite">
+            Ofer's Site- coming soon
         </div>)
    }
 }

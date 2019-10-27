@@ -2,6 +2,7 @@
   grid-area: h;
   background-color: #DFDFE5;
   padding: 4vh 12vw 6vh 8vw;
+  font-family: 'Comic Sans MS', Courier, monospace;
 }
 .header .name {
   margin: 0px 0px 2vh 0px;
