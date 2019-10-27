@@ -28,3 +28,4 @@ constantly being updated
 - create server and DB
 - save content in DB and synchronize with Heroku
 - add "about me": songs audio/ video recordings
+- add map with pins of current and former adresses
