@@ -18,8 +18,8 @@ class Navbar extends Component {
                <div className="cv nav2"><a className="links" href="#cv">CV</a></div>
                <div className="aboutMe nav2"><a className="links" href="#aboutMe">About Me</a></div>
                <div className="updated text2">Last updated: <br />
-                  Oct 24, 2019 <br />
-                  {moment("2019102413", "YYYYMMDDHH").fromNow()}
+                  Oct 27, 2019 <br />
+                  {moment("2019102713", "YYYYMMDDHH").fromNow()}
                </div>
             </div >
          </div>)
