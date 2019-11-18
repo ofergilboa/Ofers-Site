@@ -4,8 +4,7 @@ import Web from './Web/Web'
 import Arch from './Arch/Arch'
 import CV from './CV/CV'
 import Aboutme from './Aboutme/Aboutme'
-
-
+import SimpleExpansionPanel from './Web/Web'
 
 class Body extends Component {
    render() {
@@ -13,6 +12,7 @@ class Body extends Component {
          <div className="body text1">
             <br />
             <Web />
+            {/* <SimpleExpansionPanel /> */}
             <br />
             <Arch />
             <br />

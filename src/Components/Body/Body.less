@@ -1,22 +1,49 @@
 @color1: rgb(255, 255, 255);
 @color2:#3C3B55;
-
+@color3:rgb(177, 177, 177);
+@color4:rgb(53, 53, 53);
 
 .body{
    // grid-column: 2/three;
    // grid-row: three/four;
-   grid-area: b;
-   background-color: @color1;
+   // grid-area: b;
+   width: 100vw;
+   background-color: white;
    color: white;
-   padding: 8vh 22vw 4vh 8vw;
+   padding: 2vh 5vw 4vh 5vw;
    display: flex;
    flex-direction: column ;
    justify-content:  space-around ;
    // box-shadow: 0px 1px 2px 1px  @color2 ;
-   .web{
-      // margin: 15px ;
+   // .imgWeb{
+      // width: 100%;
+   // }
+   #web{
+      margin: 20px 0px 10px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      color: black;  
+
    }
-   .cv{
+   .ArchStuff{
+      margin: 80px 0px 30px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      width: 90%;
+      color: black; 
+   }
+   .archPics{
+      width: 90%;
+      height: 60vh;
+      border-radius: 2vMax;
+      background-size: cover;
+      background-image: url('../../img/archBackground.jpg');
+      opacity: 0.6;
+      filter: blur(5px);
+   }
+   #cv{
       display: flex;
       flex-direction:column;
       // align-content: center;
@@ -29,5 +56,7 @@
          justify-items: center;
       }
    }
-
+   // .backImg{
+      // background-image: url('https://i.stack.imgur.com/yDr7J.jpg');
+   // }
 }

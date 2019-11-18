@@ -1,36 +1,39 @@
 @text1: rgb(0, 0, 0);
 @text2: rgb(172, 172, 172);
 @links: rgb(255, 255, 255);
+@color1:rgb(59, 58, 63);
 @test: red;
 
 .app{
-   background-color: rgb(133, 200, 255);
    // font-family: 'Courier New', Courier, monospace;
    // font-family: 'Comic Sans MS', Courier, monospace;
-   
-   display: grid;
-   grid-template-columns: 12% 88%;
-   grid-template-rows: 25px auto 12fr;
-   grid-template-areas: "c c" 
-                        "n h"
-                        "n b";
-   width: 100vw;
-   height: 100vh;
-   overflow-y: auto;
+   // font-family: 'roboto', Courier, monospace;
+   // font-family: 'Lucida Sans Unicode', Courier, monospace;
+   // font-family: 'Raleway', sans-serif;
+   background-color: rgb(133, 200, 255);
+   // width: 95%;
+   // height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   // justify-content: flex-start;
    .links{
       color: @links;
       text-decoration: none;
       font-size: 13px;
-
+      font-family: 'Raleway', sans-serif, monospace;
    }
    .text1{
-      color: @text1;
-      font-size: 14px;
-      
+      color: @text2;
+      font-size: 16px;
    }
    .text2{
       color: @text2;
       font-size: 13px;
-
+   }
+   a{
+      color: @color1;
+      text-decoration: none;
+      margin: 0px 0px 0px 15px;
    }
 }
