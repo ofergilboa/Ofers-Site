@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SlideShow from 'react-image-show';
 
 class Arch extends Component {
    render() {
