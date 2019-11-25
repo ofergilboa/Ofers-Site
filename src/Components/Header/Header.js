@@ -16,16 +16,11 @@ class Header extends Component {
             <div className="content">
                {/* <img className="image" src={Ofer} alt="image" ></img> */}
                <div className="headerText text1">
-                  A team player, critical thinker, and self-learner with excellent technical skills and academic
-                  qualifications.
+                  A team player, critical thinker, and self-learner with excellent technical skills.
                   <br />
-
-                  I possess a proven ability to ensure architectural projects are functional, safe, and
-                  well-designed.
+                   an innovative solution seeker with a keen eye for detail.
                   <br />
-
-                  I am an innovative solution seeker with a keen eye for detail, looking to embark
-                  on a new journey in the field of full-stack web development.
+                  looking to embark on a new journey in the field of full-stack web development.
                </div>
                <br />
             </div>

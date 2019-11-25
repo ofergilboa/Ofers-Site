@@ -61,7 +61,7 @@ export default function SimpleExpansionPanel() {
    return (
       <div className={classes.root}>
          <div id="web">Projects</div>
-         <br />
+         {/* <br /> */}
          <ExpansionPanel >
             <ExpansionPanelSummary
                expandIcon={<ExpandMoreIcon />}
