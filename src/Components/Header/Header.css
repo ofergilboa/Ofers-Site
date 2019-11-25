@@ -10,6 +10,7 @@
   font-family: 'Comic Sans MS', Courier, monospace;
   text-align: center;
   background-image: url('https://i.stack.imgur.com/yDr7J.jpg');
+  background-position: center;
   background-size: cover;
   align-items: center;
 }

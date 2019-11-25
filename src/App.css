@@ -1,5 +1,6 @@
 .app {
   background-color: #85c8ff;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }

@@ -8,45 +8,25 @@
   justify-content: space-around;
 }
 .body #web {
-  height: 46px;
+  height: 36px;
   width: 100%;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 3px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #ffffff;
   background-color: #353535;
+  background-image: url('https://i.stack.imgur.com/yDr7J.jpg');
+  background-size: cover;
   border-radius: 5px 5px 0px 0px;
   box-shadow: 0px 1px 2px 0px #353535;
 }
-.body .Arch .image-gallery-image {
-  height: 70vh;
-  width: 80%;
-  margin: auto;
-  height: 430px;
-  object-fit: cover;
-  overflow: hidden;
-  object-position: center;
-}
-.body .Arch .ArchStuff {
-  margin: 80px 0px 30px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  color: black;
-}
-.body .Arch .archPics {
-  width: 40%;
-  height: 40%;
-  border-radius: 2vMax;
-}
-.body .Arch #cv {
+.body #cv {
   display: flex;
   flex-direction: column;
 }
-.body .Arch #cv .cv1 {
+.body #cv .cv1 {
   box-shadow: 0px 1px 2px 1px #3C3B55;
   width: 70vw;
   margin: auto;
