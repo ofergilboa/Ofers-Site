@@ -1,21 +1,32 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
-.image-gallery-slide {
-  max-height: 70vh;
-  max-width: 100vw;
-  position: bottom;
-  object-fit: fill;
-  background-color: #f3f3f3;
-}
 #arch {
   width: 90vw;
 }
-.image-gallery-image {
-  max-height: 70vh;
-  max-width: 100vw;
+#arch img {
+  background-size: cover;
   margin: auto;
   object-fit: fill;
   overflow: hidden;
   position: bottom;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.image-gallery-slide {
+  max-height: 83vh;
+  max-width: 90vw;
+  background-position: bottom;
+  background-size: cover;
+  background-color: #f3f3f3;
+  margin: auto;
+  object-fit: fill;
+  overflow: hidden;
+  position: bottom;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
 }
 .ArchStuff {
   height: 36px;
