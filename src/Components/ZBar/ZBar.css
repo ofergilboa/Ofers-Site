@@ -20,7 +20,7 @@
   color: #ffffff;
   margin-left: 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .ZBarA {
     position: initial;
     height: 16vh;
@@ -48,7 +48,7 @@
   color: #ffffff;
   margin: 0px 0px 0px 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .ZBarB {
     position: initial;
     height: 12vh;

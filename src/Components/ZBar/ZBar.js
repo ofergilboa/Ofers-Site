@@ -17,7 +17,7 @@ class ZBar extends Component {
                <div><a href={OferGilboaCV} download="Ofer Gilboa CV">Download CV</a></div>
             </div>
             <div className="ZBarB">
-               <div >Last Updated {moment("2019112513", "YYYYMMDDHH").fromNow()} (Nov 25, 2019)</div>
+               <div >Last Updated {moment("2019112620", "YYYYMMDDHH").fromNow()} (Nov 26, 2019)</div>
                <div >ofer1gilboa@gmail.com</div>
                <div >0528283312</div>
                <div className="city">Tel Aviv</div>

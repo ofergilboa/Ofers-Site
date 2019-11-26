@@ -43,7 +43,7 @@ class Arch extends Component {
       return (
          <div id="arch" >
             <div className="ArchStuff" >Arch Stuff</div>
-            <br />
+            {/* <br /> */}
             {/* <div className="archPics"></div> */}
             <ImageGallery items={images} />
             {/* <ImageGallery className="archPics" sizes={"width:50px"} items={images} /> */}

@@ -14,25 +14,9 @@ import CRM5 from '../../../img/CRM/tryGif.gif'
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 
 
-// class Web extends Component {
-//    render() {
-//       return (
-//          <div className="web" id="web">
-//             <div>my sites</div>
-//             <br />
-//             <SimpleExpansionPanel />
-//             <br />
-//             {/* <CRM /> */}
-//          </div>)
-//    }
-// }
-// export default Web
-
-
 const useStyles = makeStyles(theme => ({
    root: {
       width: '90vw',
-      // padding: "0px 0px 0px -50px", 
       zIndex: 1,
    },
    heading: {
@@ -47,7 +31,7 @@ export default function SimpleExpansionPanel() {
    let images = [CRM1, CRM2, CRM3, CRM4, CRM5]
    const [index, setIndex] = React.useState(0);
 
-   React.useEffect(() => {
+   // React.useEffect(() => {
       // const timer = setInterval(() => {
       //    if (index === 4) {
       //       setIndex(0);
@@ -56,7 +40,7 @@ export default function SimpleExpansionPanel() {
       //    }
       // }, 10000);
       // return () => clearInterval(timer);
-   }, [index]);
+   // }, [index]);
 
    return (
       <div className={classes.root}>
@@ -89,7 +73,7 @@ export default function SimpleExpansionPanel() {
                         background: "rgb(59, 58, 63)",
 
                         // height: "100vh",
-                        width: "90%",
+                        width: "100%",
                         padding: "4vMin 0px 4vMin 0px",
                         borderRadius: "2vMax",
                         margin: "auto"
