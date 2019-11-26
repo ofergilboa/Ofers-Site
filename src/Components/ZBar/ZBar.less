@@ -1,0 +1,68 @@
+@text1: rgb(0, 0, 0);
+@text2: rgb(94, 94, 94);
+@links: rgb(255, 255, 255);
+@color1:rgb(53, 53, 53);
+@color2:rgb(77, 77, 77);
+@test: red;
+
+
+.ZBarA{
+   z-index: 9;
+   width: 100vw;
+   height: 6vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;  
+   text-align: center;
+   font-size: 12px;
+   align-items: center;
+   background-color: @color2;
+   background-image: url('https://i.stack.imgur.com/yDr7J.jpg');
+   opacity: 0.8;
+   background-position: top;
+   background-size: cover;
+   a{
+         z-index: 99;
+         opacity: 100;
+         color: @links;
+         margin-left: 0px;
+   }
+   @media (max-width: 500px) {
+      position: initial;
+      height: 16vh;
+      flex-direction: column;
+      justify-content: space-around;  
+      padding: 1vh 0px 1vh 0px;
+      color: @links;
+
+      .city{
+         display: none;
+         font-size: 18px;
+      }
+   }
+}
+.ZBarB{
+   z-index: 9;
+   width: 100vw;
+   height: 6vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;  
+   text-align: center;
+   font-size: 12px;
+   align-items: center;
+   background-color: @color1;
+   color: @links;
+   margin: 0px 0px 0px 0px;
+   @media (max-width: 500px) {
+      position: initial;
+      height: 12vh;
+      flex-direction: column;
+      justify-content: space-around;  
+      padding: 1vh 0px 1vh 0px;
+      .city{
+         display: none;
+         font-size: 18px;
+      }
+   }
+}

@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Body from './Components/Body/Body';
 import Header from './Components/Header/Header';
 import Contact from './Components/Contact/Contact';
+import ZBar from './Components/ZBar/ZBar';
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
                {/* <Navbar /> */}
                <Header />
                <Body />
+               <ZBar />
             </div>
          // </Router>
       )

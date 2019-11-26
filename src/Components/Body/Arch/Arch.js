@@ -33,7 +33,7 @@ class Arch extends Component {
          { original: i1, thumbnail: i1 }, { original: i2, thumbnail: i2 }, { original: i3, thumbnail: i3 },
          { original: i4, thumbnail: i4 }, { original: i5, thumbnail: i5 }, { original: i6, thumbnail: i6 },
          { original: i7, thumbnail: i7 }, { original: i8, thumbnail: i8 }, { original: i9, thumbnail: i9 },
-         { original: i10, thumbnail: i10 }, { original: i11, thumbnail: i11 },
+         { original: i10, thumbnail: i10 }, { original: i11, thumbnail: i11 },{ original: i12, thumbnail: i12 },
          { original: i13, thumbnail: i13 }, { original: i14, thumbnail: i14 }, { original: i15, thumbnail: i15 },
          { original: i16, thumbnail: i16 }, { original: i17, thumbnail: i17 }, { original: i18, thumbnail: i18 },
          { original: i19, thumbnail: i19 }, { original: i20, thumbnail: i20 }, { original: i21, thumbnail: i21 },
