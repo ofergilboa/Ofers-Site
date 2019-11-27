@@ -10,6 +10,11 @@
   justify-content: space-between;
   box-shadow: 0px -5px 16px 0px #ffffff;
 }
+.contactDiv a {
+  color: #353535;
+  text-decoration: none;
+  margin: 0px 0px 0px 15px;
+}
 .contactDiv .linksMenu {
   display: flex;
 }
