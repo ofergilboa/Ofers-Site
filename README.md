@@ -26,13 +26,13 @@ footer
 #### Ofer's Site- mobile
 
 header
- <img src="src/img/OfersSite/headerM.PNG" boarder="5" width="400" title="Ofer's Site">
+ <img src="src/img/OfersSite/headerM.PNG" boarder="5" height="540px" title="Ofer's Site">
 
 body
- <img src="src/img/OfersSite/bodyM.PNG" boarder="5" width="400" title="Ofer's Site">
+ <img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="540px" title="Ofer's Site">
 
 footer
- <img src="src/img/OfersSite/ZBarM.PNG" boarder="5" width="400" title="Ofer's Site">
+ <img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="540px" title="Ofer's Site">
 
 
 
