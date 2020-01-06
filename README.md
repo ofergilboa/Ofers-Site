@@ -13,11 +13,11 @@ constantly being updated
 
 header
 
-![alt text](src/img/OfersSite/header.PNG "Ofer's Site")
+![alt text](src/img/OfersSite/header.PNG "Ofer's Site") <!-- .element height="50%" width="50%" -->
 
 body
 
-![alt text](src/img/OfersSite/body.PNG "Ofer's Site")
+![alt text](src/img/OfersSite/body.PNG "Ofer's Site"){:height="50%" width="50%"}
 
 footer
 
@@ -28,11 +28,11 @@ footer
 
 header
 
-![alt text](src/img/OfersSite/headerM.PNG "Ofer's Site") ![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site")
+![alt text](src/img/OfersSite/headerM.PNG "Ofer's Site") <!-- .element height="50%" width="50%" -->
 
 body
 
-![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site")
+![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site"){:height="50%" width="50%"}
 
 footer
 
