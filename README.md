@@ -11,32 +11,32 @@ constantly being updated
 
 #### Ofer's Site- web
 
-header
+header ----------------------------------------------------------------------------------------------
 
 <p><img src="src/img/OfersSite/header.PNG" border-width="5px" title="Ofer's Site"></p>
 
-body
+body  -----------------------------------------------------------------------------------------------
 
-<p><img src="src/img/OfersSite/body.PNG" border-width="5px" border-color="black" title="Ofer's Site"></p>
+<p><img src="src/img/OfersSite/body.PNG" border="2px solid red" title="Ofer's Site"></p>
 
-
-footer
+footer ----------------------------------------------------------------------------------------------
 
 <p><img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site"></p>
 
 
 
+
 #### Ofer's Site- mobile
 
-header
+header ----------------------------------------------------------------------------------------------
 
 <p><img src="src/img/OfersSite/headerM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
 
-body
+body  -----------------------------------------------------------------------------------------------
 
 <p><img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
 
-footer
+footer ----------------------------------------------------------------------------------------------
 
 <p><img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
 
