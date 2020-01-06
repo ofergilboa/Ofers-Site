@@ -22,6 +22,8 @@ src/img/header.PNG "Ofer's Site"
 4
 src/img/bodyM.PNG
 
+![alt text](src/img/OfersSite/Zbar.PNG "Home Page screenshot")
+
 
 ### Built With:
 - React
