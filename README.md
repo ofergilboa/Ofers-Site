@@ -13,11 +13,13 @@ constantly being updated
 
 header
 
-![alt text](src/img/OfersSite/header.PNG "Ofer's Site") style="width:200px;"
+![alt text](src/img/OfersSite/header.PNG "Ofer's Site"){ width=50% }
+
+![My caption](binder_link){ width=50% }
 
 body
 
-![alt text](src/img/OfersSite/body.PNG "Ofer's Site" style="width:200px;")
+![alt text](src/img/OfersSite/body.PNG "Ofer's Site"){ width=50px }
 
 footer
 
