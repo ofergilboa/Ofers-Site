@@ -12,27 +12,33 @@ constantly being updated
 #### Ofer's Site- web
 
 header
- <img src="src/img/OfersSite/header.PNG" boarder="5px black" title="Ofer's Site">
+
+<img src="src/img/OfersSite/header.PNG" border-width="5px black" title="Ofer's Site">
 
 body
- <img src="src/img/OfersSite/body.PNG" boarder="5" title="Ofer's Site">
+
+<img src="src/img/OfersSite/body.PNG" boarder="5" title="Ofer's Site">
 
 
 footer
- <img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site">
+
+<img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site">
 
 
 
 #### Ofer's Site- mobile
 
 header
- <img src="src/img/OfersSite/headerM.PNG" boarder="5" height="540px" title="Ofer's Site">
+
+<img src="src/img/OfersSite/headerM.PNG" boarder="5" height="540px" title="Ofer's Site">
 
 body
- <img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="540px" title="Ofer's Site">
+
+<img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="540px" title="Ofer's Site">
 
 footer
- <img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="540px" title="Ofer's Site">
+
+<img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="540px" title="Ofer's Site">
 
 
 
