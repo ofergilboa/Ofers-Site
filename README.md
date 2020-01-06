@@ -17,6 +17,8 @@ header
 
 body
 
+ <img src="src/img/OfersSite/body.PNG" width="50" title="hover text">
+
 ![alt text](src/img/OfersSite/body.PNG "Ofer's Site"){ width=50px }
 
 footer
