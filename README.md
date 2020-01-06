@@ -17,12 +17,12 @@ constantly being updated
 src/img/header.PNG "Ofer's Site"
 
 3
-(src/img/Zbar.PNG)
+(src/img/ZBar.PNG)
 
 4
 src/img/bodyM.PNG
 
-![alt text](src/img/OfersSite/Zbar.PNG "Home Page screenshot")
+![alt text](src/img/OfersSite/ZBar.PNG "Home Page screenshot")
 
 
 ### Built With:
