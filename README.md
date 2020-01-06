@@ -13,16 +13,16 @@ constantly being updated
 
 header
 
-<img src="src/img/OfersSite/header.PNG" border-width="5px black" title="Ofer's Site">
+<p><img src="src/img/OfersSite/header.PNG" border-width="5px" title="Ofer's Site"></p>
 
 body
 
-<img src="src/img/OfersSite/body.PNG" boarder="5" title="Ofer's Site">
+<p><img src="src/img/OfersSite/body.PNG" border-width="5px" border-color="black" title="Ofer's Site"></p>
 
 
 footer
 
-<img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site">
+<p><img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site"></p>
 
 
 
@@ -30,15 +30,15 @@ footer
 
 header
 
-<img src="src/img/OfersSite/headerM.PNG" boarder="5" height="540px" title="Ofer's Site">
+<p><img src="src/img/OfersSite/headerM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
 
 body
 
-<img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="540px" title="Ofer's Site">
+<p><img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
 
 footer
 
-<img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="540px" title="Ofer's Site">
+<p><img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
 
 
 
