@@ -9,20 +9,28 @@
 constantly being updated 
 
 
-#### Ofer's Site
+#### Ofer's Site- web
 1
-(src/img/body.PNG "Ofer's Site")
+![alt text](src/img/OfersSite/body.PNG "Ofer's Site")
 
 2
-src/img/header.PNG "Ofer's Site"
+![alt text](src/img/OfersSite/header.PNG "Ofer's Site")
 
 3
-(src/img/ZBar.PNG)
+![alt text](src/img/OfersSite/ZBar.PNG "Ofer's Site")
 
-4
-src/img/bodyM.PNG
 
-![alt text](src/img/OfersSite/ZBar.PNG "Home Page screenshot")
+#### Ofer's Site- mobile
+1
+![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site")
+
+2
+![alt text](src/img/OfersSite/headerM.PNG "Ofer's Site")
+
+3
+![alt text](src/img/OfersSite/ZBarM.PNG "Ofer's Site")
+
+
 
 
 ### Built With:
