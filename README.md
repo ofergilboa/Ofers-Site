@@ -14,16 +14,20 @@ constantly being updated
 header
 
 ![alt text](src/img/OfersSite/header.PNG "Ofer's Site"){ width=50% }
+ <img src="src/img/OfersSite/header.PNG" boarder="5" title="Ofer's Site">
 
 body
 
- <img src="src/img/OfersSite/body.PNG" width="50" title="hover text">
 
 ![alt text](src/img/OfersSite/body.PNG "Ofer's Site"){ width=50px }
+ <img src="src/img/OfersSite/body.PNG" boarder="5" title="Ofer's Site">
+
 
 footer
 
 ![alt text](src/img/OfersSite/ZBar.PNG "Ofer's Site")
+ <img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site">
+
 
 
 #### Ofer's Site- mobile
@@ -31,14 +35,20 @@ footer
 header
 
 ![alt text](src/img/OfersSite/headerM.PNG "Ofer's Site") 
+ <img src="src/img/OfersSite/headerM.PNG" boarder="5" width="400" title="Ofer's Site">
+
 
 body
 
 ![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site")
+ <img src="src/img/OfersSite/bodyM.PNG" boarder="5" width="400" title="Ofer's Site">
+
 
 footer
 
 ![alt text](src/img/OfersSite/ZBarM.PNG "Ofer's Site")
+ <img src="src/img/OfersSite/ZBarM.PNG" boarder="5" width="400" title="Ofer's Site">
+
 
 
 
