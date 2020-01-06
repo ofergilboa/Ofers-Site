@@ -10,10 +10,17 @@ constantly being updated
 
 
 #### Ofer's Site
-![alt text](src/img/body.PNG "Ofer's Site")
-![alt text](src/img/header.PNG "Ofer's Site")
-![alt text](src/img/Zbar.PNG "Ofer's Site")
-![alt text](src/img/bodyM.PNG "Ofer's Site")
+1
+(src/img/body.PNG "Ofer's Site")
+
+2
+src/img/header.PNG "Ofer's Site"
+
+3
+(src/img/Zbar.PNG)
+
+4
+src/img/bodyM.PNG
 
 
 ### Built With:
