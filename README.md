@@ -10,24 +10,32 @@ constantly being updated
 
 
 #### Ofer's Site- web
-1
-![alt text](src/img/OfersSite/body.PNG "Ofer's Site")
 
-2
+header
+
 ![alt text](src/img/OfersSite/header.PNG "Ofer's Site")
 
-3
+body
+
+![alt text](src/img/OfersSite/body.PNG "Ofer's Site")
+
+footer
+
 ![alt text](src/img/OfersSite/ZBar.PNG "Ofer's Site")
 
 
 #### Ofer's Site- mobile
-1
+
+header
+
+![alt text](src/img/OfersSite/headerM.PNG "Ofer's Site") ![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site")
+
+body
+
 ![alt text](src/img/OfersSite/bodyM.PNG "Ofer's Site")
 
-2
-![alt text](src/img/OfersSite/headerM.PNG "Ofer's Site")
+footer
 
-3
 ![alt text](src/img/OfersSite/ZBarM.PNG "Ofer's Site")
 
 
