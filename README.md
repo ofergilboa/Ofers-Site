@@ -13,14 +13,21 @@ constantly being updated
 
 #### web
 
+
+
 header
 
 <p><img src="src/img/OfersSite/header.PNG"  title="Ofer's Site"></p>
 
 
+
+
+
 body
 
 <p><img src="src/img/OfersSite/body.PNG" title="Ofer's Site"></p>
+
+
 
 
 
@@ -35,14 +42,23 @@ footer
 #### mobile
 
 
+
+
+
 header
 
-<p height="440px" style="background-color:red" margin="50px"><img src="src/img/OfersSite/headerM.PNG"  height="95%" title="Ofer's Site"></p>
+<p><img src="src/img/OfersSite/headerM.PNG"  height="440px" title="Ofer's Site"></p>
+
+
+
 
 
 body
 
 <p><img src="src/img/OfersSite/bodyM.PNG"  height="440px" title="Ofer's Site"></p>
+
+
+
 
 
 footer
