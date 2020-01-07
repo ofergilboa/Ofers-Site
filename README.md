@@ -30,7 +30,7 @@ footer
 
 header
 
-<p height="440px" background-color="red"><img src="src/img/OfersSite/headerM.PNG"  height="400px" title="Ofer's Site"></p>
+<p height="440px" background-color="red" margin="50px"><img src="src/img/OfersSite/headerM.PNG"  height="95%" title="Ofer's Site"></p>
 
 body
 
