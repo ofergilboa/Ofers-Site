@@ -40,6 +40,13 @@ body
 <p><img src="src/img/OfersSite/bodyM.PNG"  height="440px" title="Ofer's Site"></p>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 footer
 <br/>
 <p><img src="src/img/OfersSite/ZBarM.PNG"  height="440px" title="Ofer's Site"></p>
