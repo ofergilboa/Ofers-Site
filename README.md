@@ -11,34 +11,34 @@ constantly being updated
 
 #### Ofer's Site- web
 
------------------------ header ----------------------------------------------------------------------------------------------
+header
 
-<p><img src="src/img/OfersSite/header.PNG" border-width="5px" title="Ofer's Site"></p>
+<p><img src="src/img/OfersSite/header.PNG"  title="Ofer's Site"></p>
 
------------------------body  -----------------------------------------------------------------------------------------------
+body
 
-<p><img src="src/img/OfersSite/body.PNG" border="2px solid red" title="Ofer's Site"></p>
+<p><img src="src/img/OfersSite/body.PNG" title="Ofer's Site"></p>
 
------------------------ footer ----------------------------------------------------------------------------------------------
 
-<p><img src="src/img/OfersSite/ZBar.PNG" boarder="5" title="Ofer's Site"></p>
+footer
 
+<p><img src="src/img/OfersSite/ZBar.PNG"  title="Ofer's Site"></p>
 
 
 
 #### Ofer's Site- mobile
 
------------------------ header ----------------------------------------------------------------------------------------------
+header
 
-<p background-color="#555"><img src="src/img/OfersSite/headerM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
+<p height="440px"><img src="src/img/OfersSite/headerM.PNG"  height="400px" title="Ofer's Site"></p>
 
------------------------ body  -----------------------------------------------------------------------------------------------
+body
 
-<p background-color="black"><img src="src/img/OfersSite/bodyM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
+<p><img src="src/img/OfersSite/bodyM.PNG"  height="440px" title="Ofer's Site"></p>
 
------------------------ footer ----------------------------------------------------------------------------------------------
+footer
 
-<p><img src="src/img/OfersSite/ZBarM.PNG" boarder="5" height="440px" title="Ofer's Site"></p>
+<p><img src="src/img/OfersSite/ZBarM.PNG"  height="440px" title="Ofer's Site"></p>
 
 
 
