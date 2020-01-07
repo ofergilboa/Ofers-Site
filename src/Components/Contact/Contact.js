@@ -15,7 +15,7 @@ class Contact extends Component {
                <InfoMenu />
                <LinksMenu />
             </div>
-            <div className="lastUpdate">Last Updated {moment("2019112620", "YYYYMMDDHH").fromNow()} (Nov 26, 2019)
+            <div className="lastUpdate">Last Updated {moment("2020010713", "YYYYMMDDHH").fromNow()} (Jan 07, 2020)
             </div>
             <div className="innerLinks">
                <a className="links" href="#web">web</a>

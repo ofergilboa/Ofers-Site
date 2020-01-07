@@ -1,38 +1,43 @@
-@text1: rgb(0, 0, 0);
-@text2: rgb(172, 172, 172);
-@links: rgb(255, 255, 255);
-@color1:rgb(59, 58, 63);
-@test: red;
+@text1 : rgb(0, 0, 0);
+@text2 : rgb(172, 172, 172);
+@links : rgb(255, 255, 255);
+@links2: rgb(2, 2, 2);
+@color1: rgb(59, 58, 63);
+@test  : red;
 
-.app{
-   // font-family: 'Courier New', Courier, monospace;
-   // font-family: 'Comic Sans MS', Courier, monospace;
-   // font-family: 'roboto', Courier, monospace;
-   // font-family: 'Lucida Sans Unicode', Courier, monospace;
-   // font-family: 'Raleway', sans-serif;
+.app {
+   // font-family  : 'Courier New', Courier, monospace;
+   // font-family  : 'Comic Sans MS', Courier, monospace;
+   // font-family  : 'roboto', Courier, monospace;
+   // font-family  : 'Lucida Sans Unicode', Courier, monospace;
+   // font-family  : 'Raleway', sans-serif;
    background-color: rgb(133, 200, 255);
-   // width: 95%;
-   // height: 100vh;
-   overflow: hidden;
-   display: flex;
-   flex-direction: column;
+   // width        : 95%;
+   // height       : 100vh;
+   overflow        : hidden;
+   display         : flex;
+   flex-direction  : column;
+
    // justify-content: flex-start;
-   .links{
-      color: @links;
+   .links {
+      color          : @links;
       text-decoration: none;
-      font-size: 13px;
-      font-family: 'Raleway', sans-serif, monospace;
+      font-size      : 13px;
+      font-family    : 'Raleway', sans-serif, monospace;
    }
-   .text1{
-      color: @text2;
+
+   .text1 {
+      color    : @text2;
       font-size: 16px;
    }
-   .text2{
-      color: @text2;
+
+   .text2 {
+      color    : @text2;
       font-size: 13px;
    }
-   a{
-      color: @color1;
+
+   a {
+      color          : @color1;
       text-decoration: none;
       // margin: 0px 0px 0px 15px;
    }
