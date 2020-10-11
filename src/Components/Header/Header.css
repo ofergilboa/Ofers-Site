@@ -4,9 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #3b3a3f;
+  background-color: #357fa7;
   padding: 20vh 0vw 16vh 0vw;
-  font-family: 'Comic Sans MS', Courier, monospace;
+  font-family: "Handlee", cursive;
   text-align: center;
   background-image: url('https://i.stack.imgur.com/yDr7J.jpg');
   background-position: center;

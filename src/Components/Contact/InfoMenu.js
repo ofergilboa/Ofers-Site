@@ -20,7 +20,7 @@ export default function InfoMenu() {
    return (
       <div >
          <Button className="links" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} onclick={handleClick} >
-            info
+            contact
          </Button >
          <Menu
             id="simple-menu"

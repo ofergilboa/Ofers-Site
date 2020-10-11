@@ -4,7 +4,6 @@
 - chosen apps
 - architecture stuff  
 - my CV
-- about me
 
 constantly being updated 
 
@@ -52,8 +51,3 @@ footer
  https://ofers-site.herokuapp.com/
 
 
-#### to do:
-- create server and DB
-- save content in DB and synchronize with Heroku
-- add "about me": songs audio/ video recordings
-- add map with pins of current and former addresses

@@ -41,9 +41,7 @@ export default function SimpleExpansionPanel() {
                </ExpansionPanelSummary>
                <ExpansionPanelDetails>
                   <Typography>
-                     A team player, critical thinker, and self-learner with excellent technical skills and academic
-            qualifications. <br />I possess a proven ability to ensure architectural projects are functional, safe, and
-            well-designed. <br />I am an innovative solution seeker with a keen eye for detail, looking to embark
+                     A team player, critical thinker, and self-learner with excellent technical skills. <br />An innovative solution seeker with a keen eye for detail, looking to embark
                                        on a new journey in the field of full-stack web development.
           </Typography>
                </ExpansionPanelDetails>
@@ -83,7 +81,7 @@ export default function SimpleExpansionPanel() {
                </ExpansionPanelSummary>
                <ExpansionPanelDetails>
                   <Typography>
-                     <b>Client Side :</b> React and MobX, JavaScript (ES5/6) jQuery, HTML, CSS, LESS
+                     <b>Client Side :</b> React and Redux, React-Native, JavaScript (ES5/6) , HTML, CSS, LESS
             <br /><b>Server Side and DataBase :</b> Node.js, Express, MongoDB, Mongoose, SQL
             <br /><b>Tools :</b> Git, working in collaboration in Github, Heroku
             <br /><b>Software applications :</b> PowerPoint, Word, Photoshop, Rhinoceros, Autocad

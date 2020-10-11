@@ -10,7 +10,7 @@ class Header extends Component {
          <div id="header" className="header links">
             <div className=" ofer name links" >Ofer Gilboa</div>
             <br />
-            <div className="name links" style={{color: "black", fontSize:"30px"}} >Junior Full Stack Web Developer</div>
+            <div className="name links" style={{color: "black", fontSize:"30px"}} >Full Stack Web Developer</div>
             <br />
             <br />
             <div className="content">
@@ -18,9 +18,9 @@ class Header extends Component {
                <div className="headerText text1">
                   A team player, critical thinker, and self-learner with excellent technical skills.
                   <br />
-                   an innovative solution seeker with a keen eye for detail.
+                   An innovative solution seeker with a keen eye for detail.
                   <br />
-                  looking to embark on a new journey in the field of full-stack web development.
+                  Looking to embark on a new journey in the field of full-stack web development.
                </div>
                <br />
             </div>

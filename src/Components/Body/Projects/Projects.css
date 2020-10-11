@@ -1,0 +1,43 @@
+.project {
+  background-color: white;
+  display: flex;
+  width: 90%;
+  height: 60%;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+.projectText {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectImage {
+  width: 60%;
+  max-height: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5%;
+}
+.imageOnly {
+  border-radius: 5px;
+  padding: 2px;
+  border: 1.5px solid #357fa7;
+}
+.header {
+  color: black;
+  font-size: 18px;
+}
+.technologies {
+  color: black;
+}
+.linkButton {
+  background-color: #357fa7;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  color: #ffffff;
+  border: 0px solid #ffffff;
+  margin-right: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
