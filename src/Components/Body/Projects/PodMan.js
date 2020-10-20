@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
 import PodMan1 from '../../../img/PodMan/PodMan1.png'
+import gif from '../../../img/PodMan/PodManGif.gif'
+import image from '../../../img/PodMan/PodManImg.png'
 
 
 export default function PodMan() {
+
+    const [isGif, setIsGif] = useState(image)
+
     return (
         <div>
             <div className="project">
@@ -12,20 +17,21 @@ export default function PodMan() {
                         PodMan
                     </div>
                     <div className="description">
-                        A marketplace for fans to buy and sell last-minute concert tickets using a bidding
-                        system.
-                        The seller offers concert tickets up for bid, takes bids, and then sells them to the highest
-                        bidder. Built by a team of 4 programmers.
+                        a podcast manager app designed for phones, which shows podcasts by categories and plays selected episode.
                     </div>
                     <div className="technologies">
-                        Built with: React, MobX, Node.JS, Express, SQL.
+                        Built with: jQuery, handlebars.
                     </div>
                     <div className="links">
-                        <a className="linkButton" style={{color:"white"}} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/podcastManager" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://podman-podcast-manager.herokuapp.com" target="blank">App</a>
                     </div>
                 </div>
                 <div className="projectImage">
-                    <img src={PodMan1} className="imageOnly" max-width="100%" max-height="500px" />
+                    <img src={isGif} className="imageOnly" height="450px"
+                        onMouseEnter={(() => setIsGif(gif))}
+                        onMouseLeave={(() => setIsGif(image))}
+                        onClick={(() => isGif === gif ? setIsGif(image) : setIsGif(gif))} />
                 </div>
             </div>
 

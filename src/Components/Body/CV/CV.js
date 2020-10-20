@@ -12,51 +12,52 @@ import OferGilboaCV from '../../../files/OferGilboaCV.pdf'
 
 
 const useStyles = makeStyles(theme => ({
-   root: {
-      width: '90vw',
-      // padding: "0px 0px 0px -50px", 
-      zIndex: 1,
-   },
-   heading: {
-      fontSize: theme.typography.pxToRem(15),
-      fontWeight: theme.typography.fontWeightRegular,
-   },
+    root: {
+        width: '90vw',
+        // padding: "0px 0px 0px -50px", 
+        zIndex: 1,
+    },
+    heading: {
+        fontSize: theme.typography.pxToRem(15),
+        fontWeight: theme.typography.fontWeightRegular,
+    },
 }));
 
 export default function SimpleExpansionPanel() {
-   const classes = useStyles();
-   const [index, setIndex] = React.useState(0);
+    const classes = useStyles();
+    const [index, setIndex] = React.useState(0);
 
-   return (
-      <div>
-         <div id="cv">CV</div>
-         <div className={classes.root}>
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel1a-content"
-                  id="panel1a-header"
-               >
-                  <Typography className={classes.heading}>Personal Statement</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     A team player, critical thinker, and self-learner with excellent technical skills. <br />An innovative solution seeker with a keen eye for detail, looking to embark
+    return (
+        <div>
+            <div id="cv">CV</div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Personal Statement</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            A team player, critical thinker, and self-learner with excellent technical skills.
+                     <br />An innovative solution seeker with a keen eye for detail, looking to embark
                                        on a new journey in the field of full-stack web development.
           </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2a-content"
-                  id="panel2a-header"
-               >
-                  <Typography className={classes.heading}>Education</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     <b>2019 | Full-Stack Web Development</b>, Elevation Academy, Tel Aviv
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>Education</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <b>2019 | Full-Stack Web Development</b>, Elevation Academy, Tel Aviv
             <br />An intensive 3-month coding course that covered the entire <b>MERN</b> stack and beyond. <br />Built a
                                        number of end-to-end projects from scratch while adhering to solid OOP principles and
                                        communicating with a number of external APIs.
@@ -67,107 +68,125 @@ export default function SimpleExpansionPanel() {
             <br />● Worked in collaboration with others and independently.
             <br /><br />GPA | 82
             <br />Psychometric exam score | <b>742</b>
-                  </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
+                        </Typography>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
 
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2a-content"
-                  id="panel2a-header"
-               >
-                  <Typography className={classes.heading}>Skills</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     <b>Client Side :</b> React and Redux, React-Native, JavaScript (ES5/6) , HTML, CSS, LESS
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>Skills</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <b>Client Side :</b> React and Redux, React-Native, JavaScript (ES5/6) , HTML, CSS, LESS
             <br /><b>Server Side and DataBase :</b> Node.js, Express, MongoDB, Mongoose, SQL
             <br /><b>Tools :</b> Git, working in collaboration in Github, Heroku
             <br /><b>Software applications :</b> PowerPoint, Word, Photoshop, Rhinoceros, Autocad
           </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
 
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2a-content"
-                  id="panel2a-header"
-               >
-                  <Typography className={classes.heading}>Projects</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     <b>PriceLess -</b> a marketplace for fans to buy and sell last-minute concert tickets using a bidding
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>Projects</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <b>CRM -</b> A web application for tracking and managing a company's interaction with current and
+                                       potential customers. <br />Client side uses React, server side uses Node.JS, Express, and MongoDB.
+                                       <br /><br /><b>Recorder- </b> A mobile app for recording, displaying, filtering and playing audio files. <br />Built with: React-Native, Redux, Node.JS, Express, Expo, Mongo Atlas.
+                                       <br /><br /><b>PriceLess -</b> A marketplace for fans to buy and sell last-minute concert tickets using a bidding
                      system. The seller offers concert tickets up for bid, takes bids, and then sells them to the highest
-                     bidder . Client side uses React and MobX, server side uses Node.JS, Express, and SQL.
-            <br /><br /><b>CRM -</b> a web application for tracking and managing a company's interaction with current and
-                                       potential customers. Client side uses React, server side uses Node.JS, Express, and MongoDB.
+                     bidder . <br />Client side uses React and MobX, server side uses Node.JS, Express, and SQL. Built by a team of 4.
             <br /><br /><b>Ofer’s Site - </b> you are currently in it.
           </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
 
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2a-content"
-                  id="panel2a-header"
-               >
-                  <Typography className={classes.heading}>Work Experience</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     <b>2018 | Project Manager -</b> TransPerfect - a translation company
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>Internships</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <b>June 2020 -</b> Shout- an Instagram Influencer Marketing Platform. Working with Python, JavaScript, React-Native, Redux.
+                                       <br /><br />
+                            <b>December 2019 -</b> Bimmatch- a startup connecting customers with products in the construction field, working with GraphQL, Apollo, Netlify.
+          </Typography>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>Work Experience</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <b>2018 | Project Manager -</b> TransPerfect - a translation company
             <br />Coordinated multiple projects simultaneously, ensuring that all deadlines are met, projects stay
                                        within budget , and deliverables are of the highest quality.
             <br />
-                     <br /><b>2011-2016 |</b> Student jobs - Sales representative and escape-room operator
+                            <br /><b>2011-2016 |</b> Student jobs - Sales representative and escape-room operator
           </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
 
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2a-content"
-                  id="panel2a-header"
-               >
-                  <Typography className={classes.heading}>Other</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     <b>Military Service</b>
-                     <br />2006-2009 | Collected technological materials for a variety of classified projects in
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>Other</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <b>Military Service</b>
+                            <br />2006-2009 | Collected technological materials for a variety of classified projects in
                      collaboration with high-ranking officials.
             <br />
-                     <br /><b>Languages</b>
-                     <br />Hebrew - mother tongue
+                            <br /><b>Languages</b>
+                            <br />Hebrew - mother tongue
             <br />English - mother tongue level
           </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
 
-            <ExpansionPanel>
-               <ExpansionPanelSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2a-content"
-                  id="panel2a-header"
-               >
-                  <Typography className={classes.heading}>CV</Typography>
-               </ExpansionPanelSummary>
-               <ExpansionPanelDetails>
-                  <Typography>
-                     <img className="cv1" src={OferGilboaCVJ} alt="image"  ></img>
-                     <img className="cv2" src={OferGilboaCVJ2} alt="image"  ></img>
-                     <br />
-                     <br />
-                     <a className="textDownload" href={OferGilboaCV} download="Ofer Gilboa CV">Download CV as PDF</a>
-                  </Typography>
-               </ExpansionPanelDetails>
-            </ExpansionPanel>
-         </div>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel2a-content"
+                        id="panel2a-header"
+                    >
+                        <Typography className={classes.heading}>CV</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <img className="cv1" src={OferGilboaCVJ} alt="image"  ></img>
+                            <img className="cv2" src={OferGilboaCVJ2} alt="image"  ></img>
+                            <br />
+                            <br />
+                            <a className="textDownload" href={OferGilboaCV} download="Ofer Gilboa CV">Download CV as PDF</a>
+                        </Typography>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
 
-      </div>)
+        </div>)
 }

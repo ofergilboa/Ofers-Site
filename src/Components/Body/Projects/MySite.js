@@ -1,31 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
-import PriceLess1 from '../../../img/PriceLess/homepage.png'
+import mobile from '../../../img/OfersSite/bodyM.PNG'
+import web from '../../../img/OfersSite/body.PNG'
 
 
 export default function MySite() {
+
+    // const [isGif, setIsGif] = useState(image)
+
+
+    let isWeb = window.screen.width > 700 ? mobile : web
+
+
+    console.log(isWeb)
+
     return (
         <div>
             <div className="project">
                 <div className="projectText">
                     <div className="header">
-                    MySite
+                        MySite
                     </div>
                     <div className="description">
-                        A marketplace for fans to buy and sell last-minute concert tickets using a bidding
-                        system.
-                        The seller offers concert tickets up for bid, takes bids, and then sells them to the highest
-                        bidder. Built by a team of 4 programmers.
+                        A web and mobile app for showcasing chosen apps, architecture stuff, my CV.
+                        <br />
+                        <br />
+                        *You are viewing the example on the right on the opposite platform than you are on.
                     </div>
                     <div className="technologies">
-                        Built with: React, MobX, Node.JS, Express, SQL.
+                        Built with: React.
                     </div>
                     <div className="links">
-                        <a className="linkButton" style={{color:"white"}} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
                     </div>
                 </div>
                 <div className="projectImage">
-                    <img src={PriceLess1} className="imageOnly" width="100%" />
+                    {isWeb === web ?
+                        <img src={isWeb} className="imageOnly" width="100%" />
+                        :
+                        <img src={isWeb} className="imageOnly" height='450px' />
+                    }
                 </div>
             </div>
 

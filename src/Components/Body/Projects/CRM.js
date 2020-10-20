@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
-import CRM1 from '../../../img/CRM/Home.PNG'
+import CRM1 from '../../../img/CRM/CRM.gif'
+import CRM2 from '../../../img/CRM/forWeb.JPG'
 
 
 export default function Recorder() {
+
+    const [isGif, setIsGif] = useState(CRM2)
+
     return (
         <div>
             <div className="project">
@@ -21,12 +25,15 @@ export default function Recorder() {
                         Built with: React, Node.JS, Express, MongoDB.
                     </div>
                     <div className="links">
-                        <a className="linkButton" style={{color:"white"}} href="https://github.com/ofergilboa/Ofers-Site" target="blank">GitHub</a>
-                        <a className="linkButton" style={{color:"white"}} href="https://crm-ofer-gilboa.herokuapp.com/" target="blank">View Website</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/Ofers-Site" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://crm-ofer-gilboa.herokuapp.com/" target="blank">View Website</a>
                     </div>
                 </div>
                 <div className="projectImage">
-                    <img src={CRM1} className="imageOnly" width="100%" />
+                    <img src={isGif} className="imageOnly" width="100%"
+                        onMouseEnter={(() => setIsGif(CRM1))}
+                        onMouseLeave={(() => setIsGif(CRM2))}
+                        onClick={(() => isGif === CRM1 ? setIsGif(CRM2) : setIsGif(CRM1))} />
                 </div>
             </div>
 

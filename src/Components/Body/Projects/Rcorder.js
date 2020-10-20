@@ -1,32 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
-import PriceLess1 from '../../../img/PriceLess/homepage.png'
+import image from '../../../img/Recorder/img2.JPG'
+import video from '../../../img/Recorder/video3.mp4'
 
 
 export default function Recorder() {
+
+    const [isVideo, setIsVideo] = useState(image)
+
     return (
         <div>
             <div className="project">
                 <div className="projectText">
                     <div className="header">
-                    Recorder
+                        Recorder
                     </div>
                     <div className="description">
-                        A marketplace for fans to buy and sell last-minute concert tickets using a bidding
-                        system.
-                        The seller offers concert tickets up for bid, takes bids, and then sells them to the highest
-                        bidder. Built by a team of 4 programmers.
+                        A mobile app for recording, displaying, filtering and playing audio files.
                     </div>
                     <div className="technologies">
-                        Built with: React, MobX, Node.JS, Express, SQL.
+                        Built with: React-Native, Redux, Node.JS, Express, Expo, Mongo Atlas.
                     </div>
                     <div className="links">
-                        <a className="linkButton" style={{color:"white"}} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
                     </div>
                 </div>
-                <div className="projectImage">
-                    <img src={PriceLess1} className="imageOnly" width="100%" />
-                </div>
+                {<div className="projectImage"
+
+
+                    onClick={(() => isVideo === image ? setIsVideo(video) : setIsVideo(image))} >
+                    {isVideo === image ?
+                        <img src={image} className="imageOnly" height="450px" onMouseEnter={(() => setIsVideo(video))} />
+                        : <video controls className="imageOnly video-container video-container-overlay" height='450px' muted={false}>
+                            <source src={video} type="video/mp4" />
+                        </video>}
+                </div>}
             </div>
 
         </div>

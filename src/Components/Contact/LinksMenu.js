@@ -32,7 +32,7 @@ export default function ContactMenu() {
             <MenuItem onClick={handleClose}><a href={OferGilboaCV} download="Ofer Gilboa CV">Download CV</a></MenuItem>
             <MenuItem onClick={handleClose}><a href="https://www.linkedin.com/in/ofer-gilboa" target="blank">LinkedIn</a></MenuItem>
             <MenuItem onClick={handleClose}><a href="https://github.com/ofergilboa" target="blank">GitHub</a></MenuItem>
-            <MenuItem onClick={handleClose}><a href="https://www.codewars.com/users/ofergilboa" target="blank">CodeWars</a></MenuItem>
+            {/* <MenuItem onClick={handleClose}><a href="https://www.codewars.com/users/ofergilboa" target="blank">CodeWars</a></MenuItem> */}
          </Menu>
       </div>
    );

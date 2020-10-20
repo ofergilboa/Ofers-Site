@@ -15,10 +15,10 @@ export default function PriceLess() {
                         A marketplace for fans to buy and sell last-minute concert tickets using a bidding
                         system.
                         The seller offers concert tickets up for bid, takes bids, and then sells them to the highest
-                        bidder. Built by a team of 4 programmers.
+                        bidder. Built by a team of 4.
                     </div>
                     <div className="technologies">
-                        Buil with: React, MobX, Node.JS, Express, SQL.
+                        Built with: React, MobX, Node.JS, Express, SQL.
                     </div>
                     <div className="links">
                         <a className="linkButton" style={{color:"white"}} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
