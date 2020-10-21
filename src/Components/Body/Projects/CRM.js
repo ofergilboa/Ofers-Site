@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import './Projects.css'
-import CRM1 from '../../../img/CRM/CRM.gif'
-import CRM2 from '../../../img/CRM/forWeb.JPG'
+import gif from '../../../img/CRM/CRM.gif'
+import image from '../../../img/CRM/forWeb.JPG'
 
 
 export default function Recorder() {
 
-    const [isGif, setIsGif] = useState(CRM2)
+    const [isGif, setIsGif] = useState(false)
 
     return (
         <div>
@@ -30,10 +30,11 @@ export default function Recorder() {
                     </div>
                 </div>
                 <div className="projectImage">
-                    <img src={isGif} className="imageOnly" width="100%"
-                        onMouseEnter={(() => setIsGif(CRM1))}
-                        onMouseLeave={(() => setIsGif(CRM2))}
-                        onClick={(() => isGif === CRM1 ? setIsGif(CRM2) : setIsGif(CRM1))} />
+                    <img src={isGif ? gif : image} className="imageOnly" width="100%"
+                        onMouseEnter={(() => setIsGif(true))}
+                        onMouseLeave={(() => setIsGif(false))}
+                        onClick={(() => !isGif ? setIsGif(true) : setIsGif(false))}
+                    />
                 </div>
             </div>
 

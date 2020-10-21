@@ -52,6 +52,7 @@
 @media (max-width: 900px) {
   .project .projectImage {
     width: 94%;
+    height: auto;
     align-self: center;
     margin-bottom: 5px;
   }

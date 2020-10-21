@@ -32,6 +32,7 @@ export default function MySite() {
                     </div>
                     <div className="links">
                         <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/Ofers-Site" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} target="blank">You are actually already here</a>
                     </div>
                 </div>
                 <div className="projectImage">
