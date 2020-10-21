@@ -31,7 +31,7 @@ export default function MySite() {
                         Built with: React.
                     </div>
                     <div className="links">
-                        <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/PriceLess" target="blank">GitHub</a>
+                        <a className="linkButton" style={{ color: "white" }} href="https://github.com/ofergilboa/Ofers-Site" target="blank">GitHub</a>
                     </div>
                 </div>
                 <div className="projectImage">
