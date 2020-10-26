@@ -18,6 +18,8 @@ export default function PodMan() {
                     </div>
                     <div className="description">
                         a podcast manager app designed for phones, which shows podcasts by categories and plays selected episode.
+                        <br />
+                        *Hover image to view
                     </div>
                     <div className="technologies">
                         Built with: jQuery, handlebars.

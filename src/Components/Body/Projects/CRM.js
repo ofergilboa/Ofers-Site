@@ -20,6 +20,8 @@ export default function Recorder() {
                         potential customers.
                   <br />
                   Client side uses React, server side uses Node.JS, Express, and MongoDB.
+                  <br />
+                  *Hover image to view
                     </div>
                     <div className="technologies">
                         Built with: React, Node.JS, Express, MongoDB.

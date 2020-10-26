@@ -6,31 +6,31 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import CRM1 from '../../../img/CRM/Home.PNG'
-import CRM2 from '../../../img/CRM/Clients.PNG'
-import CRM3 from '../../../img/CRM/ClientsByCountry.PNG'
-import CRM4 from '../../../img/CRM/CRMclients.PNG'
-import CRM5 from '../../../img/CRM/Actions.PNG'
-import CRM6 from '../../../img/CRM/Analytics.PNG'
-import CRM7 from '../../../img/CRM/AnalyticsOwner.PNG'
+// import CRM1 from '../../../img/CRM/Home.PNG'
+// import CRM2 from '../../../img/CRM/Clients.PNG'
+// import CRM3 from '../../../img/CRM/ClientsByCountry.PNG'
+// import CRM4 from '../../../img/CRM/CRMclients.PNG'
+// import CRM5 from '../../../img/CRM/Actions.PNG'
+// import CRM6 from '../../../img/CRM/Analytics.PNG'
+// import CRM7 from '../../../img/CRM/AnalyticsOwner.PNG'
 
-import PriceLess1 from '../../../img/PriceLess/homepage.png'
-import PriceLess2 from '../../../img/PriceLess/concertPage.png'
-import PriceLess3 from '../../../img/PriceLess/front.png'
-import PodMan1 from '../../../img/PodMan/PodMan1.png'
-import PodMan2 from '../../../img/PodMan/PodMan2.PNG'
-import PodMan3 from '../../../img/PodMan/PodMan3.PNG'
-import PodMan4 from '../../../img/PodMan/PodMan4.PNG'
-import PodMan5 from '../../../img/PodMan/PodMan5.PNG'
-import OfersSite1 from '../../../img/OfersSite/header.PNG'
-import OfersSite2 from '../../../img/OfersSite/headerM.PNG'
-import OfersSite3 from '../../../img/OfersSite/body.PNG'
-import OfersSite4 from '../../../img/OfersSite/bodyM.PNG'
-import OfersSite5 from '../../../img/OfersSite/ZBar.PNG'
-import OfersSite6 from '../../../img/OfersSite/ZBarM.PNG'
-import { Gallery, GalleryImage } from "react-gesture-gallery";
+// import PriceLess1 from '../../../img/PriceLess/homepage.png'
+// import PriceLess2 from '../../../img/PriceLess/concertPage.png'
+// import PriceLess3 from '../../../img/PriceLess/front.png'
+// import PodMan1 from '../../../img/PodMan/PodMan1.png'
+// import PodMan2 from '../../../img/PodMan/PodMan2.PNG'
+// import PodMan3 from '../../../img/PodMan/PodMan3.PNG'
+// import PodMan4 from '../../../img/PodMan/PodMan4.PNG'
+// import PodMan5 from '../../../img/PodMan/PodMan5.PNG'
+// import OfersSite1 from '../../../img/OfersSite/header.PNG'
+// import OfersSite2 from '../../../img/OfersSite/headerM.PNG'
+// import OfersSite3 from '../../../img/OfersSite/body.PNG'
+// import OfersSite4 from '../../../img/OfersSite/bodyM.PNG'
+// import OfersSite5 from '../../../img/OfersSite/ZBar.PNG'
+// import OfersSite6 from '../../../img/OfersSite/ZBarM.PNG'
+// import { Gallery, GalleryImage } from "react-gesture-gallery";
 
-import test1 from '../../../img/Recorder/test1.mp4'
+// import test1 from '../../../img/Recorder/test1.mp4'
 
 const useStyles = makeStyles(theme => ({
     root: {

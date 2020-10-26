@@ -17,6 +17,8 @@ export default function Recorder() {
                     </div>
                     <div className="description">
                         A mobile app for recording, displaying, filtering and playing audio files.
+                        <br />
+                  *Hover image to view
                     </div>
                     <div className="technologies">
                         Built with: React-Native, Redux, Node.JS, Express, Expo, Mongo Atlas.
