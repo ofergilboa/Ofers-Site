@@ -2,20 +2,10 @@
  
 #### A web page for showcasing :
 - chosen apps
-- architecture stuff  
 - my CV
+- architecture stuff  
 
 
-#### web
-
-
-
-#### mobile
-
-
-
-### Built With:
-- React
 
 
 #### check it out for yourself 
