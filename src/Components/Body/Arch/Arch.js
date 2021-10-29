@@ -66,7 +66,7 @@ export default function Arch() {
     const [images, setImages] = useState([])
     setTimeout(() => {
         setImages([
-            { original: "https://i.imgur.com/euQ5fY0.jpg", thumbnail: "https://i.imgur.com/euQ5fY0.jpg" },
+            { original: i1, thumbnail: i1 },
             { original: i2, thumbnail: i2 },
             { original: i3, thumbnail: i3 },
             { original: i4, thumbnail: i4 },
@@ -124,7 +124,7 @@ export default function Arch() {
         <div id="arch" >
             <div className="ArchStuff" >Architecture Portfolio</div>
             <div className="ArchImages">
-                <ImageGallery items={images} />
+                <ImageGallery items={images} showBullets={true} />
             </div>
         </div>)
 }
