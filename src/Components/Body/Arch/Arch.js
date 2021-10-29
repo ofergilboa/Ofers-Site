@@ -3,67 +3,70 @@ import './Arch.css'
 import axios from 'axios'
 // import SlideShow from 'react-image-show';
 import ImageGallery from 'react-image-gallery';
-import i1 from '../../../img/Arch/book/b1.jpg';
-import i2 from '../../../img/Arch/book/b2.jpg';
-import i3 from '../../../img/Arch/book/b3.jpg';
-import i4 from '../../../img/Arch/book/b4.jpg';
-import i5 from '../../../img/Arch/book/b5.jpg';
-import i6 from '../../../img/Arch/book/b6.jpg';
-import i7 from '../../../img/Arch/book/b7.jpg';
-import i8 from '../../../img/Arch/book/b8.jpg';
-import i9 from '../../../img/Arch/book/b9.jpg';
-import i10 from '../../../img/Arch/book/b10.jpg';
-import i11 from '../../../img/Arch/book/b11.jpg';
-import i12 from '../../../img/Arch/book/b12.jpg';
-import i13 from '../../../img/Arch/book/b13.jpg';
-import i14 from '../../../img/Arch/book/b14.jpg';
-import i15 from '../../../img/Arch/book/b15.jpg';
-import i16 from '../../../img/Arch/book/b16.jpg';
-import i17 from '../../../img/Arch/book/b17.jpg';
-import i18 from '../../../img/Arch/book/b18.jpg';
-import i19 from '../../../img/Arch/book/b19.jpg';
-import i20 from '../../../img/Arch/book/b20.jpg';
-import i21 from '../../../img/Arch/book/b21.jpg';
-import i22 from '../../../img/Arch/book/b22.jpg';
-import i23 from '../../../img/Arch/book/b23.jpg';
-import i24 from '../../../img/Arch/book/b24.jpg';
-import i25 from '../../../img/Arch/book/b25.jpg';
-import i26 from '../../../img/Arch/book/b26.jpg';
-import i27 from '../../../img/Arch/book/b27.jpg';
-import i28 from '../../../img/Arch/book/b28.jpg';
-import i29 from '../../../img/Arch/book/b29.jpg';
-import i30 from '../../../img/Arch/book/b30.jpg';
-import i31 from '../../../img/Arch/book/b31.jpg';
-import i32 from '../../../img/Arch/book/b32.jpg';
-import i33 from '../../../img/Arch/book/b33.jpg';
-import i34 from '../../../img/Arch/book/b34.jpg';
-import i35 from '../../../img/Arch/book/b35.jpg';
-import i36 from '../../../img/Arch/book/b36.jpg';
-import i37 from '../../../img/Arch/book/b37.jpg';
-import i38 from '../../../img/Arch/book/b38.jpg';
-import i39 from '../../../img/Arch/book/b39.jpg';
-import i40 from '../../../img/Arch/book/b40.jpg';
-import i41 from '../../../img/Arch/book/b41.jpg';
-import i42 from '../../../img/Arch/book/b42.jpg';
-import i43 from '../../../img/Arch/book/b43.jpg';
-import i44 from '../../../img/Arch/book/b44.jpg';
-import i45 from '../../../img/Arch/book/b45.jpg';
-import i46 from '../../../img/Arch/book/b46.jpg';
-import i47 from '../../../img/Arch/book/b47.jpg';
-import i48 from '../../../img/Arch/book/b48.jpg';
-import i49 from '../../../img/Arch/book/b49.jpg';
-import i50 from '../../../img/Arch/book/b50.jpg';
-import i51 from '../../../img/Arch/book/b51.jpg';
+
+let i1 = "https://i.imgur.com/H4yMqwj.jpg";
+let i2 = "https://i.imgur.com/Qm0cn4U.jpg";
+let i3 = "https://i.imgur.com/mix2ptV.jpg";
+let i4 = "https://i.imgur.com/InnPJ0g.jpg";
+let i5 = "https://i.imgur.com/iCE5X2K.jpg";
+let i6 = "https://i.imgur.com/DkT6L2n.jpg";
+let i7 = "https://i.imgur.com/f9CzvVi.jpg";
+let i8 = "https://i.imgur.com/LuGqjNy.jpg";
+let i9 = "https://i.imgur.com/2ZNzNQ0.jpg";
+let i10 = "https://i.imgur.com/8CGr95c.jpg";
+let i11 = "https://i.imgur.com/KkldtLz.jpg";
+let i12 = "https://i.imgur.com/7A4sxI8.jpg";
+let i13 = "https://i.imgur.com/ppg4e2V.jpg";
+let i14 = "https://i.imgur.com/e1HHjoX.jpg";
+let i15 = "https://i.imgur.com/Cwl1V7d.jpg";
+let i16 = "https://i.imgur.com/ppDnsDu.jpg";
+let i17 = "https://i.imgur.com/q6kPniW.jpg";
+let i18 = "https://i.imgur.com/ERgTDNU.jpg";
+let i19 = "https://i.imgur.com/cJKktQW.jpg";
+let i20 = "https://i.imgur.com/crV02qs.jpg";
+let i21 = "https://i.imgur.com/YdBWOVz.jpg";
+let i22 = "https://i.imgur.com/Jr8T634.jpg";
+let i23 = "https://i.imgur.com/Gwkd4st.jpg";
+let i24 = "https://i.imgur.com/0duusp5.jpg";
+let i25 = "https://i.imgur.com/zRXofGn.jpg";
+let i26 = "https://i.imgur.com/WDPDLWI.jpg";
+let i27 = "https://i.imgur.com/5lHC22z.jpg";
+let i28 = "https://i.imgur.com/P6GlR1A.jpg";
+let i29 = "https://i.imgur.com/B3qMJme.jpg";
+let i30 = "https://i.imgur.com/7EXZeWA.jpg";
+let i31 = "https://i.imgur.com/RSDDbnl.jpg";
+let i32 = "https://i.imgur.com/rbjiXml.jpg";
+let i33 = "https://i.imgur.com/9c7dj0d.jpg";
+let i34 = "https://i.imgur.com/y6a2ILx.jpg";
+let i35 = "https://i.imgur.com/zRaTAbB.jpg";
+let i36 = "https://i.imgur.com/WXSMeuT.jpg";
+let i37 = "https://i.imgur.com/EDbstPb.jpg";
+let i38 = "https://i.imgur.com/vpRBt1W.jpg";
+let i39 = "https://i.imgur.com/4PI9Uh2.jpg";
+let i40 = "https://i.imgur.com/GJJRvT1.jpg";
+let i41 = "https://i.imgur.com/xXkseJr.jpg";
+let i42 = "https://i.imgur.com/bDAjfmD.jpg";
+let i43 = "https://i.imgur.com/iw3lnh0.jpg";
+let i44 = "https://i.imgur.com/yqHuzW4.jpg";
+let i45 = "https://i.imgur.com/gpTdSuq.jpg";
+let i46 = "https://i.imgur.com/mkgajgS.jpg";
+let i47 = "https://i.imgur.com/IazvTkn.jpg";
+let i48 = "https://i.imgur.com/GYuzh8b.jpg";
+let i49 = "https://i.imgur.com/42paL1H.jpg";
+let i50 = "https://i.imgur.com/Uwc7MGR.jpg";
+let i51 = "https://i.imgur.com/FZZcjsh.jpg";
+
 
 let activateCRM = axios.get(`https://crm-ofer-gilboa.herokuapp.com`)
 let activatePodMan = axios.get(`https://podman-podcast-manager.herokuapp.com`)
+let activateMySite = axios.get(`https://ofers-site.herokuapp.com`)
 
 export default function Arch() {
 
     const [images, setImages] = useState([])
     setTimeout(() => {
         setImages([
-            { original: i1, thumbnail: i1 },
+            { original: "https://i.imgur.com/euQ5fY0.jpg", thumbnail: "https://i.imgur.com/euQ5fY0.jpg" },
             { original: i2, thumbnail: i2 },
             { original: i3, thumbnail: i3 },
             { original: i4, thumbnail: i4 },
@@ -115,7 +118,7 @@ export default function Arch() {
             { original: i50, thumbnail: i50 },
             { original: i51, thumbnail: i51 },
         ])
-    }, 6000);
+    }, 200);
 
     return (
         <div id="arch" >
