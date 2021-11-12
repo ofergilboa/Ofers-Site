@@ -4,6 +4,7 @@ import OferGilboaCV from '../../files/OferGilboaCV.pdf'
 import InfoMenu from './InfoMenu'
 import LinksMenu from './LinksMenu'
 import moment from 'moment'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 
@@ -18,9 +19,10 @@ class Contact extends Component {
                 {/* <div className="lastUpdate">Last Updated {moment("2020010713", "YYYYMMDDHH").fromNow()} (Jan 07, 2020)
             </div> */}
                 <div className="innerLinks">
-                    <a className="links" href="#web">projects</a>
-                    <a className="links" href="#cv">cv</a>
-                    <a className="links" href="#arch">arch</a>
+                    <AnchorLink className="links" href='#header'>Back To Top</AnchorLink>
+                    <AnchorLink className="links" offset='50' href="#web">projects</AnchorLink>
+                    <AnchorLink className="links" offset='50' href="#cv">cv</AnchorLink>
+                    <AnchorLink className="links" offset='30' href="#arch">arch</AnchorLink>
                     {/* <a className="links" href="#aboutMe">me</a> */}
                 </div>
             </div>
