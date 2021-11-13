@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './Projects.css'
-import mobile from '../../../img/OfersSite/bodyM.PNG'
-import web from '../../../img/OfersSite/body.PNG'
+
+let mobile = 'https://i.imgur.com/xHUPALV.png'
+let web = 'https://i.imgur.com/kDlmvYa.png'
 
 
 export default function MySite() {

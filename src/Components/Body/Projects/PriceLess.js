@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
-import PriceLess1 from '../../../img/PriceLess/homepage.png'
+
+let PriceLess1 = 'https://i.imgur.com/xv8LEUo.png'
 
 
 export default function PriceLess() {

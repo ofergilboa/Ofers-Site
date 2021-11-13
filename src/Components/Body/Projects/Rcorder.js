@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Projects.css'
-import image from '../../../img/Recorder/img2.JPG'
 import video from '../../../img/Recorder/video3.mp4'
 
+let image = 'https://i.imgur.com/SEydfzY.jpg'
 
 export default function Recorder() {
 

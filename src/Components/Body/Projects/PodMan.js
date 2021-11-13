@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import './Projects.css'
 import PodMan1 from '../../../img/PodMan/PodMan1.png'
-import gif from '../../../img/PodMan/PodManGif.gif'
-import image from '../../../img/PodMan/PodManImg.png'
+
+let gif = 'https://i.imgur.com/ysSpAtY.gif'
+let image = 'https://i.imgur.com/4XSaKEN.png'
 
 
 export default function PodMan() {

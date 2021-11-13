@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './Projects.css'
-import gif from '../../../img/CRM/CRM.gif'
-import image from '../../../img/CRM/forWeb.JPG'
+
+let gif = 'https://i.imgur.com/Aq3JVoa.gif'
+let image = 'https://i.imgur.com/0x1Emni.jpg'
 
 
 export default function Recorder() {
