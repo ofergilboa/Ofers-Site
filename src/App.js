@@ -7,6 +7,8 @@ import Header from './Components/Header/Header';
 import Contact from './Components/Contact/Contact';
 import ZBar from './Components/ZBar/ZBar';
 import axios from 'axios'
+//local dev: "https://github.com/ofergilboa/ofergilboa.github.io.git"
+//build: "https://ofergilboa.github.io/Ofers-Site"
 
 class App extends Component {
     constructor() {
