@@ -6,33 +6,39 @@ import Body from './Components/Body/Body';
 import Header from './Components/Header/Header';
 import Contact from './Components/Contact/Contact';
 import ZBar from './Components/ZBar/ZBar';
-
+import axios from 'axios'
 
 class App extends Component {
-   constructor() {
-      super()
-      this.state = {
-         something: [],
-         data: ""
-      }
-   }
+    constructor() {
+        super()
+        this.state = {
+            something: [],
+            data: ""
+        }
+    }
 
-   componentDidMount = () => {
-   }
+    componentDidMount = () => {
+        setInterval(() => {
+            let activateCRM = axios.get(`https://crm-ofer-gilboa.herokuapp.com`)
+            let activatePodMan = axios.get(`https://podman-podcast-manager.herokuapp.com`)
+            let activateMySite = axios.get(`https://ofers-site.herokuapp.com`)
+            console.log("run")
+        }, 6000000);
+    }
 
-   render() {
-      return (
-         // <Router>
+    render() {
+        return (
+            // <Router>
             <div className='app'>
-               <Contact />
-               {/* <Navbar /> */}
-               <Header />
-               <Body />
-               <ZBar />
+                <Contact />
+                {/* <Navbar /> */}
+                <Header />
+                <Body />
+                <ZBar />
             </div>
-         // </Router>
-      )
-   }
+            // </Router>
+        )
+    }
 }
 
 export default App;
