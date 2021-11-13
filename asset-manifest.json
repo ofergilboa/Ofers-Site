@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ofers-Site/static/css/main.1abd5483.chunk.css",
+    "main.js": "/Ofers-Site/static/js/main.56f69029.chunk.js",
+    "main.js.map": "/Ofers-Site/static/js/main.56f69029.chunk.js.map",
+    "runtime~main.js": "/Ofers-Site/static/js/runtime~main.404d90fa.js",
+    "runtime~main.js.map": "/Ofers-Site/static/js/runtime~main.404d90fa.js.map",
+    "static/css/2.da817310.chunk.css": "/Ofers-Site/static/css/2.da817310.chunk.css",
+    "static/js/2.82d57bcc.chunk.js": "/Ofers-Site/static/js/2.82d57bcc.chunk.js",
+    "static/js/2.82d57bcc.chunk.js.map": "/Ofers-Site/static/js/2.82d57bcc.chunk.js.map",
+    "index.html": "/Ofers-Site/index.html",
+    "precache-manifest.b9946a1d001cdc4f47ec21adac35a085.js": "/Ofers-Site/precache-manifest.b9946a1d001cdc4f47ec21adac35a085.js",
+    "service-worker.js": "/Ofers-Site/service-worker.js",
+    "static/css/2.da817310.chunk.css.map": "/Ofers-Site/static/css/2.da817310.chunk.css.map",
+    "static/css/main.1abd5483.chunk.css.map": "/Ofers-Site/static/css/main.1abd5483.chunk.css.map",
+    "static/media/Ofer.jpeg": "/Ofers-Site/static/media/Ofer.f21bd908.jpeg",
+    "static/media/OferGilboaCV.pdf": "/Ofers-Site/static/media/OferGilboaCV.b6e08b0a.pdf",
+    "static/media/OferGilboaCVCut.jpeg": "/Ofers-Site/static/media/OferGilboaCVCut.20fc5330.jpeg",
+    "static/media/OferGilboaCVslides.jpg": "/Ofers-Site/static/media/OferGilboaCVslides.688a0d67.jpg",
+    "static/media/video3.mp4": "/Ofers-Site/static/media/video3.5516a117.mp4"
+  }
+}
