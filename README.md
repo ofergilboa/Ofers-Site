@@ -9,7 +9,7 @@
 
 
 #### check it out for yourself
- https://ofers-site.herokuapp.com/
+https://ofergilboa.github.io/Ofers-Site/
 
 
 
