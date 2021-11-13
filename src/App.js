@@ -19,11 +19,11 @@ class App extends Component {
 
     componentDidMount = () => {
         setInterval(() => {
+            console.log("run")
             let activateCRM = axios.get(`https://crm-ofer-gilboa.herokuapp.com`)
             let activatePodMan = axios.get(`https://podman-podcast-manager.herokuapp.com`)
             let activateMySite = axios.get(`https://ofers-site.herokuapp.com`)
-            console.log("run")
-        }, 6000000);
+        }, 600000);
     }
 
     render() {
